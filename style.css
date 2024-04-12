@@ -28,7 +28,7 @@ em strong {
 }
 
 .benef {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(184, 200, 246, 0.800);
     padding: 20px;
 }
 
@@ -45,4 +45,17 @@ em strong {
 
 .imagem {
     width: 50%;
+}
+
+.rodape{
+    margin: 0%;
+    height: 200px;
+    background-color: black;
+}
+
+.texto-rodape{
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }

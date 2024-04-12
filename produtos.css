@@ -28,6 +28,11 @@ nav a{
     font-weight: bold;
 }
 
+nav :hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -59,3 +64,24 @@ font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
+nav a:hover {
+    color: #1bb0c3;
+    text-decoration: underline;
+}
+
+.produtos li:hover {
+    border-color: #1b98a3;
+}
+
+.produtos li:active {
+    border-color: #18999b;    
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.rodape{
+    background-color: black;
+}
+
